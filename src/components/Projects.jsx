@@ -23,6 +23,28 @@ const Projects = () => {
       impact: 'Environmental sustainability through advanced nanomaterials',
     },
     {
+  title: 'Synthesis of Ficus Maclellandii King-Zinc Based Nanocomposite for Dye Removal',
+  description:
+    'The synthesis of Ficus Maclellandii King-Zinc-based nanocomposites focuses on creating effective materials for adsorptive removal of Alizarin Red S dye. Characterized by various analytical techniques, these nanocomposites offer a promising, eco-friendly solution for dye removal.',
+  icon: <GiChemicalDrop />,
+  color: 'from-green-500 to-blue-500',
+  tags: ['Nanotechnology', 'Green Chemistry', 'Environmental', 'Adsorption'],
+  techniques: ['UV-Vis', 'FTIR', 'SEM', 'XRD'],
+  impact: 'Eco-friendly dye removal using advanced nanocomposites',
+},
+{
+  title: 'Phytochemical Screening and GC-MS Analysis of Citrullus Colocynthis Stem Oil',
+  description:
+    'Phytochemical screening and GC-MS analysis of oil extracted from the stem of Citrullus colocynthis aim to identify its bioactive compounds. This study provides insights into the chemical composition and potential medicinal properties of the stem oil, highlighting its therapeutic value.',
+  icon: <GiChemicalDrop />,
+  color: 'from-yellow-500 to-orange-500',
+  tags: ['Phytochemistry', 'GC-MS', 'Bioactive Compounds', 'Medicinal Plants'],
+  techniques: ['GC-MS', 'Phytochemical Screening'],
+  impact: 'Understanding chemical composition and therapeutic potential of stem oil',
+},
+
+
+    {
       title: 'Water Quality Analysis System',
       description:
         'Comprehensive water quality assessment using advanced analytical techniques including physical, chemical, and biological testing for environmental monitoring and regulatory compliance.',

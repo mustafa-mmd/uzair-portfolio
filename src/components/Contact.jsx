@@ -201,8 +201,8 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: <FaFacebook />, name: 'LinkedIn', color: 'hover:text-blue-500', link: '#' },
-    { icon: <FaInstagram />, name: 'GitHub', color: 'hover:text-gray-400', link: '#' },
+    { icon: <FaLinkedin />, name: 'Linkdin', color: 'hover:text-blue-500', link: 'www.linkedin.com/in/muhammad-uzair123456' },
+    { icon: <FaInstagram />, name: 'Instagram', color: 'hover:text-gray-400', link: '#' },
     { icon: <FaWhatsapp />, name: 'WhatsApp', color: 'hover:text-blue-400', link: 'https://wa.me/923440068860' }
   ];
 
@@ -294,6 +294,15 @@ const Contact = () => {
           >
             <h4 className="text-2xl font-bold text-white mb-6">References</h4>
             <div className="grid md:grid-cols-2 gap-6">
+              <div className="text-center md:text-left">
+                <p className="text-purple-400 font-semibold text-lg mb-2">Dr. Syed Muhammad Salman  </p>
+                <p className="text-gray-400 text-sm mb-1">Professor</p>
+                <p className="text-gray-400 text-sm mb-2">Islamia College University, Peshawar</p>
+                <a href="mailto:hamayun84@icp.edu.pk" className="text-gray-300 text-sm hover:text-purple-400 transition-colors">
+                  salman@icp.edu.pk
+                </a>
+              </div>
+
               <div className="text-center md:text-left">
                 <p className="text-purple-400 font-semibold text-lg mb-2">Dr. Hamayun Khan</p>
                 <p className="text-gray-400 text-sm mb-1">Professor</p>
